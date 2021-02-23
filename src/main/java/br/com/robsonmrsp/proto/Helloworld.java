@@ -36,7 +36,7 @@ public final class Helloworld {
       "\n\020helloworld.proto\022\nhelloworld\"*\n\030HelloW" +
       "orldMessageRequest\022\016\n\006myName\030\001 \001(\t\"-\n\031He" +
       "lloWorldMessageResponse\022\020\n\010greeting\030\001 \001(" +
-      "\t2n\n\021HelloWorldService\022Y\n\010SayHello\022$.hel" +
+      "\t2n\n\021HelloWorldService\022Y\n\010sayHello\022$.hel" +
       "loworld.HelloWorldMessageRequest\032%.hello" +
       "world.HelloWorldMessageResponse\"\000B\033\n\027br." +
       "com.robsonmrsp.protoP\001b\006proto3"

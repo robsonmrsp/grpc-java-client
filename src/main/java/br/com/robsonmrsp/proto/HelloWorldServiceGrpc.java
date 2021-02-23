@@ -18,7 +18,7 @@ public final class HelloWorldServiceGrpc {
       br.com.robsonmrsp.proto.HelloWorldMessageResponse> getSayHelloMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "SayHello",
+      fullMethodName = SERVICE_NAME + '/' + "sayHello",
       requestType = br.com.robsonmrsp.proto.HelloWorldMessageRequest.class,
       responseType = br.com.robsonmrsp.proto.HelloWorldMessageResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
@@ -31,13 +31,13 @@ public final class HelloWorldServiceGrpc {
           HelloWorldServiceGrpc.getSayHelloMethod = getSayHelloMethod =
               io.grpc.MethodDescriptor.<br.com.robsonmrsp.proto.HelloWorldMessageRequest, br.com.robsonmrsp.proto.HelloWorldMessageResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
-              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "SayHello"))
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "sayHello"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   br.com.robsonmrsp.proto.HelloWorldMessageRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   br.com.robsonmrsp.proto.HelloWorldMessageResponse.getDefaultInstance()))
-              .setSchemaDescriptor(new HelloWorldServiceMethodDescriptorSupplier("SayHello"))
+              .setSchemaDescriptor(new HelloWorldServiceMethodDescriptorSupplier("sayHello"))
               .build();
         }
       }
